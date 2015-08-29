@@ -124,7 +124,7 @@ For Grunt-using projects you need also `grunt-gulp` bridge:
     npm install gulp --save-dev
     npm install grunt-gulp --save-dev
 
-Then you are able to use the same gulp task inside you `Gruntfile`:
+Then you are able to use the same gulp task inside your `Gruntfile`:
 
     var gulp = require('gulp'),
       styleguide = require('sc5-styleguide');
@@ -515,7 +515,7 @@ should be added to the other styles when building:
 
 ### Providing additional JavaScript
 
-To provide additional JavaScript for the StyleGuide pages, define its `<script>` tas in the `extraHead` parameter:
+To provide additional JavaScript for the StyleGuide pages, define its `<script>` task in the `extraHead` parameter:
 
 
     gulp.task('styleguide:generate', function() {
